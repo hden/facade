@@ -1,0 +1,32 @@
+{
+  "name": "facade",
+  "version": "1.0.0",
+  "description": "Simplify data transformations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hden/facade.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Haokang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/facade/issues"
+  },
+  "homepage": "https://github.com/hden/facade#readme",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.5.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "obj-case": "^0.2.0"
+  }
+}
