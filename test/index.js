@@ -61,4 +61,8 @@ describe('facade', () => {
   it('should transform', () => {
     assert(proxy.start == (new Date(obj.dates.start)).toISOString())
   })
+
+  it('stringifies', () => {
+    assert(proxy, JSON.parse(JSON.stringify(proxy)))
+  })
 })
