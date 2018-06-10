@@ -59,7 +59,7 @@ describe('facade', () => {
   })
 
   it('should transform', () => {
-    assert(proxy.start == (new Date(obj.dates.start)).toISOString())
+    assert(proxy.start === (new Date(obj.dates.start)).toISOString())
   })
 
   it('stringifies', () => {
