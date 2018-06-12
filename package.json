@@ -1,8 +1,11 @@
 {
-  "name": "facade",
-  "version": "1.0.0",
+  "name": "@hden/facade",
+  "version": "1.1.0",
   "description": "Simplify data transformations.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha --require intelli-espower-loader",
     "lint": "standard"
@@ -27,6 +30,6 @@
     "standard": "11.0.1"
   },
   "dependencies": {
-    "obj-case": "^0.2.0"
+    "obj-case": "git+https://github.com/segmentio/obj-case.git"
   }
 }
