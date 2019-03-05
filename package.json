@@ -27,7 +27,7 @@
     "intelli-espower-loader": "1.0.1",
     "mocha": "6.0.2",
     "power-assert": "1.5.0",
-    "standard": "11.0.1"
+    "standard": "12.0.1"
   },
   "dependencies": {
     "obj-case": "git+https://github.com/segmentio/obj-case.git"
