@@ -4,7 +4,7 @@ const identity = (x) => x
 module.exports = function facade (obj = {}, specs = {}) {
   return new Proxy(specs, {
     get (_, prop) {
-      if (specs.hasOwnProperty(prop)) {
+      if (Object.prototype.hasOwnProperty.call(specs, prop)) {
         const spec = specs[prop]
         const path = spec.path || spec
         const fn = spec.fn || identity
