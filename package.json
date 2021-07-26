@@ -25,7 +25,7 @@
   "homepage": "https://github.com/hden/facade#readme",
   "devDependencies": {
     "intelli-espower-loader": "1.1.0",
-    "mocha": "9.0.1",
+    "mocha": "9.0.3",
     "power-assert": "1.6.1",
     "standard": "16.0.3"
   },
